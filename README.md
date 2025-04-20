@@ -57,6 +57,16 @@ Instead, it will copy all the configuration files and the transitive dependencie
 3. Run `npm start` to preview your resume in the browser.
 4. Customize the template as needed to match your style.
 
+## Screenshots
+
+Here are some screenshots of the application:
+
+
+### Resume Preview
+![Resume Preview](public/ss/ss1.png)
+![Resume Pdf](public/ss/ss2.png)
+
+
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
