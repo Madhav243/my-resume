@@ -1,6 +1,21 @@
-# Getting Started with Create React App
+# Resume Template - React App
+
+This project is a customizable resume template built with [Create React App](https://github.com/facebook/create-react-app). It allows you to generate a resume by filling in data in a configuration file.
+
+## Features
+
+- Fully customizable resume template.
+- Easy-to-edit configuration file for adding your personal details, skills, experience, and more.
+- Built with React for a modern and responsive design.
+- Ready for deployment.
+
+## Getting Started
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+### Prerequisites
+
+Make sure you have [Node.js](https://nodejs.org/) and `npm` installed on your system.
 
 ## Available Scripts
 
@@ -27,8 +42,6 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
 ### `npm run eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
@@ -37,7 +50,12 @@ If you aren’t satisfied with the build tool and configuration choices, you can
 
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## How to Use
+
+1. Clone this repository to your local machine.
+2. Open the `config` file (or the relevant file for data input) and fill in your personal details, skills, experience, and other information.
+3. Run `npm start` to preview your resume in the browser.
+4. Customize the template as needed to match your style.
 
 ## Learn More
 
