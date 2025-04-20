@@ -1,26 +1,28 @@
+// src/App.tsx
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Header from './components/Header';
+import ExperienceSection from './components/ExperienceSection';
+import EducationSection from './components/EducationSection';
+import ProjectsSection from './components/ProjectsSection';
+import SkillsSection from './components/SkillsSection';
+import Keywords from './components/Keywords';
+import { resumeData } from './config/resumeData';
+import './styles/globalStyles.css';
+import ErrorBoundary from './components/ErrorBoundary';
 
-function App() {
+const App: React.FC = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ErrorBoundary>
+      <div className="resume-container">
+        <Keywords keywords={resumeData.keywords} />
+        <Header header={resumeData.header} />
+        <ExperienceSection experiences={resumeData.experience} />
+        <EducationSection educations={resumeData.education} />
+        <ProjectsSection projects={resumeData.projects} />
+        <SkillsSection skills={resumeData.skills} />
+      </div>
+    </ErrorBoundary>
   );
-}
+};
 
 export default App;
