@@ -52,5 +52,5 @@ export interface ContactInfo {
     education: Education[];
     projects: Project[];
     skills: Skills;
-    keywords: Keywords;
+    keywords?: Keywords;
   }

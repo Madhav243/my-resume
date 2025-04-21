@@ -11,18 +11,13 @@ const Keywords: React.FC<KeywordsProps> = ({ keywords }) => {
   return (
     <div 
       style={{
-        position: 'absolute',
-        color: 'black',
-        backgroundColor: 'white',
-        zIndex: -1,
-        opacity: 0,
-        userSelect: 'none',
-        pointerEvents: 'none',
-        width: '1px',
-        height: '1px',
-        overflow: 'hidden'
+        position: "absolute",
+  left: "-9999px",
+  top: "auto",
+  height: "auto",
+  width: "auto",
+  overflow: "hidden",
       }}
-      aria-hidden="true"
     >
       {keywords.content}
     </div>

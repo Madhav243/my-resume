@@ -14,7 +14,8 @@ const App: React.FC = () => {
   return (
     <ErrorBoundary>
       <div className="resume-container">
-        <Keywords keywords={resumeData.keywords} />
+        {resumeData.keywords && (<Keywords keywords={resumeData.keywords} />)}
+        
         <Header header={resumeData.header} />
         <ExperienceSection experiences={resumeData.experience} />
         <EducationSection educations={resumeData.education} />
