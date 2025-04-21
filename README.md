@@ -9,6 +9,22 @@ This project is a customizable resume template built with [Create React App](htt
 - Built with React for a modern and responsive design.
 - Ready for deployment.
 
+## How to Use
+
+1. Clone this repository to your local machine.
+2. Open the `config` file (or the relevant file for data input) and fill in your personal details, skills, experience, and other information.
+3. Run `npm start` to preview your resume in the browser.
+4. Customize the template as needed to match your style.
+
+## Screenshots
+
+Here are some screenshots of the application:
+
+
+### Resume Preview
+![Resume Preview](public/ss/ss1.png)
+![Resume Pdf](public/ss/ss2.png)
+
 ## Getting Started
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -50,21 +66,7 @@ If you aren’t satisfied with the build tool and configuration choices, you can
 
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-## How to Use
 
-1. Clone this repository to your local machine.
-2. Open the `config` file (or the relevant file for data input) and fill in your personal details, skills, experience, and other information.
-3. Run `npm start` to preview your resume in the browser.
-4. Customize the template as needed to match your style.
-
-## Screenshots
-
-Here are some screenshots of the application:
-
-
-### Resume Preview
-![Resume Preview](public/ss/ss1.png)
-![Resume Pdf](public/ss/ss2.png)
 
 
 ## Learn More
